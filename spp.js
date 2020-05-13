@@ -11,5 +11,5 @@ var y=setInterval(function(){
     console.log(min);
     var sec=Math.floor((diff%(1000*60))/1000);
     console.log(sec);
-    document.getElementById("demo").innerHTML= days +"d," + hours + "hrs:" + min + "min :" +sec + "sec"
+    document.getElementById("demo").innerHTML= days +"d," + hours + "hrs:" + min + "min:" +sec + "sec"
     },1000);
