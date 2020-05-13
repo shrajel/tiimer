@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../back.jpg);
+
+}
+div{
+    display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+p{
+    height: 130px;
+    width: 700px;
+    background-image:url(../tim.jpg);
+    box-shadow: inset 0 0 10px #000000;
+    color: red;
+ line-height: 100px;
+ text-align: center;
+ font-size: 70px;
+ margin-top: 0px;
+ -webkit-box-shadow: -11px 10px 5px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: -11px 10px 5px 0px rgba(0,0,0,0.6);
+box-shadow: -11px 10px 5px 0px rgba(0,0,0,0.6);
+
+}
+h1{
+    padding: 5px,10px;
+    font-size: 60px;
+    margin-bottom:6px;
+    color:  white;
+}
+@media screen and (max-width: 1000px) {
+    .time{
+        position: relative;
+        top:25%;
+    }
+}
